@@ -5,7 +5,8 @@ The main goal of this Capstone Project is to make a model for detecting skin can
 This project was devided into the following parts:
 1. Why Skin Cancer Detection?
 2. Dataset Employed
-3. Models Trained
+3. Models Differences
+4. Models Optimization
 
 ## Why Skin Cancer Detection?
 Skin cancer emerges as one of the rapidly proliferating diseases worldwide. It involves the uncontrolled development of abnormal skin cells. Detecting and diagnosing the disease early are crucial steps in identifying potential cancer therapies
@@ -27,7 +28,7 @@ For the present work the Dataset from The International Skin Imaging Collaborati
 
 The training datatasets were conbined and the test dataset were conbined too. For more details on the available datasets you can consult https://www.isic-archive.com/
 
-## Models
+## Models Differences
 The models were trained using images from the dataset, and three categories were used for classification:
 * Melanoma (Malign)
 * Nevus
@@ -52,7 +53,7 @@ For this work the following models were tried:
  
  
 ## Models Optimization
-In this section, all the models and variations done for optimization will be listed.
+In this section, all the models and variations done for optimization will be listed. To see each one on detail, you can open the notebooks for each model version in [here](https://github.com/AndresLDF/ML-Zoomcamp-Capstone1-SkinCancerDetection/tree/main/Models%20Notebooks)
 ### X1.x Models
 The following attempts were made with this model:
 * X1.1:
