@@ -18,7 +18,7 @@ The application of AI models has proven to be an invaluable tool for skin cancer
 * [3] Assessment of Accuracy of an Artificial Intelligence Algorithm to Detect Melanoma in Images of Skin Lesions -  JAMA Netw Open. 2019;2(10):e1913436 - 10.1001/jamanetworkopen.2019.13436 
 
 
-## Dataset:
+## Datasets
 For the present work the Dataset from The International Skin Imaging Collaboration​ (ISIC) 2016 and 2017 challenge datasets were used:
 * [Challenge 2016: Training](https://api.isic-archive.com/collections/74/)
 * [Challenge 2016: Test](https://api.isic-archive.com/collections/61/)
@@ -26,3 +26,26 @@ For the present work the Dataset from The International Skin Imaging Collaborati
 * [Challenge 2017: Test](https://api.isic-archive.com/collections/69/)
 
 The training datatasets were conbined and the test dataset were conbined too. For more details on the available datasets you can consult https://www.isic-archive.com/
+
+## Models
+The models were trained using the images from the dataset and 3 Categories were used for clasification:
+* Melanoma (Malign)
+* Nevus
+* Seborrheic_keratosis
+For this work the following models were tried:
+* X1.x Models
+  * Base Model: Xception without the top
+  * Inner Layers: Single Dense Layer with Activation
+  * Outpout layer: Single Dense layer with 3 neuorons
+* X2.x Models
+  * Base Model: Xception without the top
+  * Inner Layers: Two Dense Layer with Activation and normalization
+  * Outpout layer: Single Dense layer with 3 neuorons
+* X3.x Models
+  * Base Model: Xception without the top
+  * Inner Layers: Three Dense Layer with Activation and normalization
+  * Outpout layer: Single Dense layer with 3 neuorons
+* EN.x Models
+  * Base Model: EfficientNetV2L without the top
+  * Inner Layers: Single Dense Layer with Activation
+  * Outpout layer: Single Dense layer with 3 neuorons
