@@ -28,7 +28,7 @@ For the present work the Dataset from The International Skin Imaging Collaborati
 The training datatasets were conbined and the test dataset were conbined too. For more details on the available datasets you can consult https://www.isic-archive.com/
 
 ## Models
-The models were trained using the images from the dataset and 3 Categories were used for clasification:
+The models were trained using images from the dataset, and three categories were used for classification:
 * Melanoma (Malign)
 * Nevus
 * Seborrheic_keratosis
@@ -36,28 +36,29 @@ For this work the following models were tried:
 * X1.x Models
   ** Base Model: Xception without the top
   * Inner Layers: Single Dense Layer with Activation
-  * Outpout layer: Single Dense layer with 3 neuorons
+  * Output layer: Single Dense layer with 3  neurons
 * X2.x Models
   * Base Model: Xception without the top
   * Inner Layers: Two Dense Layer with Activation and normalization
-  * Outpout layer: Single Dense layer with 3 neuorons
+  *  Output   layer: Single Dense layer with 3  neurons
 * X3.x Models
   * Base Model: Xception without the top
   * Inner Layers: Three Dense Layer with Activation and normalization
-  * Outpout layer: Single Dense layer with 3 neuorons
+  * Output layer: Single Dense layer with 3 neurons
 * EN.x Models
   * Base Model: EfficientNetV2L without the top
   * Inner Layers: Single Dense Layer with Activation
-  * Outpout layer: Single Dense layer with 3 neuorons
+  * Output layer: Single Dense layer with 3 neurons
  
  
 ## Models Optimization
+In this section, all the models and variations done for optimization will be listed.
 ### X1.x Models
-The following attemps were made witht this model:
+The following attempts were made with this model:
 * X1.1:
     * Base Model Trainable: False
     * Inner layer size: 100 neurons
-    * Imput shape: (150, 150, 3)
+    * Input shape: (150, 150, 3)
     * learning_rate=0.01
     * Drop Out: No
     * Image Augmentation: No
@@ -65,10 +66,10 @@ The following attemps were made witht this model:
 
 *  X1.2:
     *  Difference with previous version:
-        * The whole model is trained including the base model 
+        * The whole model is trained including the base model
     * Base Model Trainable: True
     * Inner layer size: 100 neurons
-    * Imput shape: (150, 150, 3)
+    * Input shape: (150, 150, 3)
     * learning_rate=0.01
     * Drop Out: No
     * Image Augmentation: No
@@ -76,11 +77,11 @@ The following attemps were made witht this model:
 
 *  X1.3:
     * Difference with previous version:
-        * A higer imput resolution of 400x400 is tried. Square images are feed.
+        * A higher input resolution of 400x400 is tried. Square images are fed.
         * The base model is not trained, default weights are used  
     * Base Model Trainable: False
     * Inner layer size: 100 neurons
-    * Imput shape: (400, 400, 3)
+    * Input shape: (400, 400, 3)
     * learning_rate=0.01
     * Drop Out: No
     * Image Augmentation: No
@@ -88,10 +89,10 @@ The following attemps were made witht this model:
 
 *  X1.4:
     * Difference with previous version:
-        * A higer imput resolution of 800x800 is tried. Square images are feed.
+        * A higher input resolution of 800x800 is tried. Square images are fed.
     * Base Model Trainable: False
     * Inner layer size: 100 neurons
-    * Imput shape: (800, 800, 3)
+    * Input shape: (800, 800, 3)
     * learning_rate=0.01
     * Drop Out: No
     * Image Augmentation: No
@@ -102,7 +103,7 @@ The following attemps were made witht this model:
         * In this version we use a similar resolution that in version 1.3, but instead of using an square relationship between the width and the heigh, we will use a relation af 1.332 that is closer to the original images
     * Base Model Trainable: False
     * Inner layer size: 100 neurons
-    * Imput shape: (400, 533, 3)
+    * Input shape: (400, 533, 3)
     * learning_rate=0.01
     * Drop Out: No
     * Image Augmentation: No
@@ -114,7 +115,7 @@ The following attemps were made witht this model:
         * In this case the effect of data augmentation will be checked
     * Base Model Trainable: False
     * Inner layer size: 100 neurons
-    * Imput shape: (400, 533, 3)
+    * Input shape: (400, 533, 3)
     * learning_rate=0.01
     * Drop Out: Tes
     * Image Augmentation: No
@@ -126,7 +127,7 @@ The following attemps were made witht this model:
         * 15 Epochs
     * Base Model Trainable: False
     * Inner layer size: 100 neurons
-    * Imput shape: (400, 533, 3)
+    * Input shape: (400, 533, 3)
     * learning_rate=0.01
     * Drop Out: No
     * Image Augmentation: Yes
@@ -138,7 +139,7 @@ The following attemps were made witht this model:
         * 20 Epochs
     * Base Model Trainable: False
     * Inner layer size: 100 neurons
-    * Imput shape: (400, 533, 3)
+    * Input shape: (400, 533, 3)
     * learning_rate=0.01
     * Drop Out: Yes
     * Image Augmentation: No
@@ -149,7 +150,7 @@ The following attemps were made witht this model:
         * 20 Epochs
     * Base Model Trainable: False
     * Inner layer size: 100 neurons
-    * Imput shape: (400, 533, 3)
+    * Input shape: (400, 533, 3)
     * learning_rate=0.01
     * Drop Out: Yes
     * Image Augmentation: No
@@ -158,25 +159,25 @@ The following attemps were made witht this model:
 *  X1.10:
     * Difference with previous version:
         * 1.5 Use as base
-        * Higer resolution used (800, 1066)
-        * The trained was not completed because of the time it took to complete it and limitations.
+        * Higher resolution used (800, 1066)
+        * The training was not completed because of the time it took to complete it and limitations.
     * Base Model Trainable: False
     * Inner layer size: 100 neurons
-    * Imput shape: (800, 1066, 3)
+    * Input shape: (800, 1066, 3)
     * learning_rate=0.01
     * Drop Out: Yes
     * Image Augmentation: No
     * Final Accuracy: 0.60
  
 ### X2.x Models
-This model changes from X1 by adding and aditional layer
-The following attemps were made witht this model:
+This model changes from X1 by adding and additional layer
+The following attempts were made with this model:
 * X2.1:
     * Base Model Trainable: False
     * Inner layer 1 size: 1000 neurons
     * Inner layer 2 size: 100 neurons
     * Normalization layers over the inners layers: No
-    * Imput shape: (400, 533, 3)
+    * Input shape: (400, 533, 3)
     * learning_rate=0.01
     * Drop Out: No
     * Image Augmentation: No
@@ -188,7 +189,7 @@ The following attemps were made witht this model:
     * Inner layer 1 size: 1000 neurons
     * Inner layer 2 size: 100 neurons
     * Normalization layers over the inners layers: Yes
-    * Imput shape: (400, 533, 3)
+    * Input shape: (400, 533, 3)
     * learning_rate=0.01
     * Drop Out: No
     * Image Augmentation: No
@@ -202,22 +203,22 @@ The following attemps were made witht this model:
     * Inner layer 1 size: 1000 neurons
     * Inner layer 2 size: 100 neurons
     * Normalization layers over the inners layers: Yes
-    * Imput shape: (400, 533, 3)
+    * Input shape: (400, 533, 3)
     * learning_rate=0.1
     * Drop Out: No
     * Image Augmentation: No
     * Final Accuracy: 0.48
 
 ### X3.x Models
-This model changes from X2 by adding and aditional layer, taking the total number of inner layers to 3
-The following attemps were made witht this model:
+This model changes from X2 by adding and additional layer, taking the total number of inner layers to 3
+The following attempts were made with this model:
  * X3.1:
     * Base Model Trainable: False
     * Inner layer 1 size: 10000 neurons
     * Inner layer 2 size: 1000 neurons
     * Inner layer 3 size: 100 neurons
     * Normalization layers over the inners layers: Yes
-    * Imput shape: (400, 533, 3)
+    * Input shape: (400, 533, 3)
     * learning_rate=0.001
     * Drop Out: No
     * Image Augmentation: No
@@ -232,8 +233,29 @@ The following attemps were made witht this model:
     * Inner layer 2 size: 1000 neurons
     * Inner layer 3 size: 100 neurons
     * Normalization layers over the inners layers: Yes
-    * Imput shape: (400, 533, 3)
+    * Input shape: (400, 533, 3)
     * learning_rate=0.001
     * Drop Out: No
     * Image Augmentation: No
     * Final Accuracy: 0.65
+
+### EN1.x Models
+This model is based on EfficientNetV2L. The model had a higher Top-1 Accuracy than Xception and probably I could obtain a higher Accuracy. As the model was too heavy I was not able to complete the
+
+ * EN1.1:
+    * Base Model Trainable: False
+    * Inner layer 1 size: 300 neurons
+    * Normalization layers over the inners layers: No
+    * Input shape: (400, 533, 3)
+    * learning_rate=0.01
+    * Drop Out: No
+    * Image Augmentation: No
+    * Final Accuracy: 0.62
+ 
+  As this model results were not an improvement from Xception similar model, and as the training time for this model is too high, the model was discarded because of computation limitations at the moment
+
+### Selected Model
+The model 1.5 was selected for further work as is the simpliest one with higher accuracy
+
+
+
