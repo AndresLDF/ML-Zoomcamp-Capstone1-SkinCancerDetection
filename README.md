@@ -267,7 +267,7 @@ The model 1.5 was selected for further work as is the simpliest one with higher 
 6. Open the file tensorflow_model_cs1.py and change the "url" variable to set it to the URL of the image that you would like to test case save it
 7. Run the file using ``` python tensorflow_model_cs1.py ```
 
-## Contenized model to use with AWS Lambda
+## Containerized model for use with AWS Lambda
 To work with the selected model, you can use the image prepared to be used with AWS Lambda. To test the image you shoudl follow the follwing steps:
 1. Clone this repository into your local machine
 2. Open your command shell
