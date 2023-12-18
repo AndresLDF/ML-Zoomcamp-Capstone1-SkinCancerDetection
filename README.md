@@ -257,12 +257,21 @@ This model is based on EfficientNetV2L. The model had a higher Top-1 Accuracy th
 ### Selected Model
 The model 1.5 was selected for further work as is the simpliest one with higher accuracy
 
-## Working with the selected model
+## Script for using the model
+1. Clone this repository into your local machine
+2. Install the needed dependencies with  ```!pip install keras-image-helper ``` ``` !pip install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime ```
+3. Open your command shell
+4. Go to the directory where the cloned repositore was stored
+5. Open the folder "Separate Script"
+6. Open the file tensorflow_model_cs1.py and change the "url" variable to set it to the URL of the image that you would like to test case save it
+7. Run the file using ``` python tensorflow_model_cs1.py ```
+
+## Contenized model to use with AWS Lambda
 To work with the selected model, you can use the image prepared to be used with AWS Lambda. To test the image you shoudl follow the follwing steps:
 1. Clone this repository into your local machine
-2. Open your command sheld
+2. Open your command shell
 3. Go to the directory where the cloned repositore was stored
-4. Open the folde "Serverles"
+4. Open the folder "Serverles"
 5. Be sure that Docker is working in your system and type ``` docker build -t scd:001 . ```
 6. Once the build is ready, type  c docker run -p 8080:8080 scd:001 ```
 7. Open another terminal on the folder "Serverles"
