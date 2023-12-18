@@ -64,8 +64,8 @@ The following attemps were made witht this model:
  * Final Accuracy: 0.64
 
 *  X1.2:
- * Difference with previous version:
-  * The whole model is trained including the base model 
+ *  Difference with previous version:
+ * The whole model is trained including the base model 
  * Base Model Trainable: True
  * Inner layer size: 100 neurons
  * Imput shape: (150, 150, 3)
@@ -75,16 +75,16 @@ The following attemps were made witht this model:
  * Final Accuracy: 0.2
 
 *  X1.3:
- * Difference with previous version:
-  * A higer imput resolution of 400x400 is tried. Square images are feed.
-  * The base model is not trained, default weights are used  
- * Base Model Trainable: False
- * Inner layer size: 100 neurons
- * Imput shape: (400, 400, 3)
- * learning_rate=0.01
- * Drop Out: No
- * Image Preparation: No
- * Final Accuracy: 0.69
+    * Difference with previous version:
+        * A higer imput resolution of 400x400 is tried. Square images are feed.
+        * The base model is not trained, default weights are used  
+    * Base Model Trainable: False
+    * Inner layer size: 100 neurons
+    * Imput shape: (400, 400, 3)
+    * learning_rate=0.01
+    * Drop Out: No
+    * Image Preparation: No
+    * Final Accuracy: 0.69
 
 *  X1.4:
  * Difference with previous version:
