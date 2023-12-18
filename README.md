@@ -55,24 +55,24 @@ For this work the following models were tried:
 ### X1.x Models
 The following attemps were made witht this model:
 * X1.1:
- * Base Model Trainable: False
- * Inner layer size: 100 neurons
- * Imput shape: (150, 150, 3)
- * learning_rate=0.01
- * Drop Out: No
- * Image Preparation: No
- * Final Accuracy: 0.64
+    * Base Model Trainable: False
+    * Inner layer size: 100 neurons
+    * Imput shape: (150, 150, 3)
+    * learning_rate=0.01
+    * Drop Out: No
+    * Image Augmentation: No
+    * Final Accuracy: 0.64
 
 *  X1.2:
- *  Difference with previous version:
- * The whole model is trained including the base model 
- * Base Model Trainable: True
- * Inner layer size: 100 neurons
- * Imput shape: (150, 150, 3)
- * learning_rate=0.01
- * Drop Out: No
- * Image Preparation: No
- * Final Accuracy: 0.2
+    *  Difference with previous version:
+        * The whole model is trained including the base model 
+    * Base Model Trainable: True
+    * Inner layer size: 100 neurons
+    * Imput shape: (150, 150, 3)
+    * learning_rate=0.01
+    * Drop Out: No
+    * Image Augmentation: No
+    * Final Accuracy: 0.2
 
 *  X1.3:
     * Difference with previous version:
@@ -83,28 +83,157 @@ The following attemps were made witht this model:
     * Imput shape: (400, 400, 3)
     * learning_rate=0.01
     * Drop Out: No
-    * Image Preparation: No
+    * Image Augmentation: No
     * Final Accuracy: 0.69
 
 *  X1.4:
- * Difference with previous version:
-  * A higer imput resolution of 800x800 is tried. Square images are feed.
-  * The base model is not trained, default weights are used  
- * Base Model Trainable: False
- * Inner layer size: 100 neurons
- * Imput shape: (800, 800, 3)
- * learning_rate=0.01
- * Drop Out: No
- * Image Preparation: No
- * Final Accuracy: 0.61
+    * Difference with previous version:
+        * A higer imput resolution of 800x800 is tried. Square images are feed.
+    * Base Model Trainable: False
+    * Inner layer size: 100 neurons
+    * Imput shape: (800, 800, 3)
+    * learning_rate=0.01
+    * Drop Out: No
+    * Image Augmentation: No
+    * Final Accuracy: 0.61
 
 *  X1.5:
- * Difference with previous version:
-  * In this version we use a similar resolution that in version 1.3, but instead of using an square relationship between the width and the heigh, we will use a a relation af 1.332 that is closer to the original images
- * Base Model Trainable: False
- * Inner layer size: 100 neurons
- * Imput shape: (400, 533, 3)
- * learning_rate=0.01
- * Drop Out: No
- * Image Preparation: No
- * Final Accuracy: 0.71
+    * Difference with previous version:
+        * In this version we use a similar resolution that in version 1.3, but instead of using an square relationship between the width and the heigh, we will use a relation af 1.332 that is closer to the original images
+    * Base Model Trainable: False
+    * Inner layer size: 100 neurons
+    * Imput shape: (400, 533, 3)
+    * learning_rate=0.01
+    * Drop Out: No
+    * Image Augmentation: No
+    * Final Accuracy: 0.71
+
+
+*  X1.6:
+    * Difference with previous version:
+        * In this case the effect of data augmentation will be checked
+    * Base Model Trainable: False
+    * Inner layer size: 100 neurons
+    * Imput shape: (400, 533, 3)
+    * learning_rate=0.01
+    * Drop Out: Tes
+    * Image Augmentation: No
+    * Final Accuracy: 0.66
+ 
+*  X1.7:
+    * Difference with previous version:
+        * Data augmentation
+        * 15 Epochs
+    * Base Model Trainable: False
+    * Inner layer size: 100 neurons
+    * Imput shape: (400, 533, 3)
+    * learning_rate=0.01
+    * Drop Out: No
+    * Image Augmentation: Yes
+    * Final Accuracy: 0.69
+ 
+*  X1.8:
+    * Difference with previous version:
+        * In this case the effect of data augmentation will be checked
+        * 20 Epochs
+    * Base Model Trainable: False
+    * Inner layer size: 100 neurons
+    * Imput shape: (400, 533, 3)
+    * learning_rate=0.01
+    * Drop Out: Yes
+    * Image Augmentation: No
+    * Final Accuracy: 0.67
+ 
+*  X1.9:
+    * Difference with previous version:
+        * 20 Epochs
+    * Base Model Trainable: False
+    * Inner layer size: 100 neurons
+    * Imput shape: (400, 533, 3)
+    * learning_rate=0.01
+    * Drop Out: Yes
+    * Image Augmentation: No
+    * Final Accuracy: 0.67
+ 
+*  X1.10:
+    * Difference with previous version:
+        * 1.5 Use as base
+        * Higer resolution used (800, 1066)
+        * The trained was not completed because of the time it took to complete it and limitations.
+    * Base Model Trainable: False
+    * Inner layer size: 100 neurons
+    * Imput shape: (800, 1066, 3)
+    * learning_rate=0.01
+    * Drop Out: Yes
+    * Image Augmentation: No
+    * Final Accuracy: 0.60
+ 
+### X2.x Models
+This model changes from X1 by adding and aditional layer
+The following attemps were made witht this model:
+* X2.1:
+    * Base Model Trainable: False
+    * Inner layer 1 size: 1000 neurons
+    * Inner layer 2 size: 100 neurons
+    * Normalization layers over the inners layers: No
+    * Imput shape: (400, 533, 3)
+    * learning_rate=0.01
+    * Drop Out: No
+    * Image Augmentation: No
+    * Final Accuracy: 0.52
+ 
+  * X2.2:
+    * Differences with the previous version: Added Normalization Models
+    * Base Model Trainable: False
+    * Inner layer 1 size: 1000 neurons
+    * Inner layer 2 size: 100 neurons
+    * Normalization layers over the inners layers: Yes
+    * Imput shape: (400, 533, 3)
+    * learning_rate=0.01
+    * Drop Out: No
+    * Image Augmentation: No
+    * Final Accuracy: 0.52
+
+  * X2.3:
+    * Differences with the previous model:
+        * Higher learning rate (0.1)
+        * Epoch increased to 20
+    * Base Model Trainable: False
+    * Inner layer 1 size: 1000 neurons
+    * Inner layer 2 size: 100 neurons
+    * Normalization layers over the inners layers: Yes
+    * Imput shape: (400, 533, 3)
+    * learning_rate=0.1
+    * Drop Out: No
+    * Image Augmentation: No
+    * Final Accuracy: 0.48
+
+### X3.x Models
+This model changes from X2 by adding and aditional layer, taking the total number of inner layers to 3
+The following attemps were made witht this model:
+ * X3.1:
+    * Base Model Trainable: False
+    * Inner layer 1 size: 10000 neurons
+    * Inner layer 2 size: 1000 neurons
+    * Inner layer 3 size: 100 neurons
+    * Normalization layers over the inners layers: Yes
+    * Imput shape: (400, 533, 3)
+    * learning_rate=0.001
+    * Drop Out: No
+    * Image Augmentation: No
+    * Final Accuracy: 0.48
+
+ * X3.2:
+    * Difference with previous version:
+        * The activations methods for each layer were tested: elu, sigmoid, tanh
+        * epochs set to 10
+    * Base Model Trainable: False
+    * Inner layer 1 size: 10000 neurons
+    * Inner layer 2 size: 1000 neurons
+    * Inner layer 3 size: 100 neurons
+    * Normalization layers over the inners layers: Yes
+    * Imput shape: (400, 533, 3)
+    * learning_rate=0.001
+    * Drop Out: No
+    * Image Augmentation: No
+    * Final Accuracy: 0.65
