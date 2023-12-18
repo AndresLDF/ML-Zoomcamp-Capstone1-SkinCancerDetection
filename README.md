@@ -21,6 +21,8 @@ The application of AI models has proven to be an invaluable tool for skin cancer
 ## Dataset:
 For the present work the Dataset from The International Skin Imaging Collaboration​ (ISIC) 2016 and 2017 challenge datasets were used:
 * [Challenge 2016: Training](https://api.isic-archive.com/collections/74/)
-* 
+* [Challenge 2016: Test](https://api.isic-archive.com/collections/61/)
+* [Challenge 2017: Training](https://api.isic-archive.com/collections/60/)
+* [Challenge 2017: Test](https://api.isic-archive.com/collections/69/)
 
-https://www.isic-archive.com/
+The training datatasets were conbined and the test dataset were conbined too. For more details on the available datasets you can consult https://www.isic-archive.com/
