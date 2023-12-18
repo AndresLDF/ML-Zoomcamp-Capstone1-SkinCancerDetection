@@ -1,0 +1,151 @@
+isic_id,attribution,copyright_license,age_approx,anatom_site_general,benign_malignant,clin_size_long_diam_mm,dermoscopic_type,diagnosis,diagnosis_confirm_type,family_hx_mm,image_type,lesion_id,melanocytic,nevus_type,patient_id,personal_hx_mm,sex
+ISIC_0001769,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,female
+ISIC_0001852,Anonymous,CC-0,10,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,female
+ISIC_0001871,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0003462,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,female
+ISIC_0003539,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,female
+ISIC_0003582,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,female
+ISIC_0003657,Anonymous,CC-0,10,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0003805,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0004337,Anonymous,CC-0,10,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0006651,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0006671,Anonymous,CC-0,10,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0006815,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,female
+ISIC_0006914,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0007141,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0007156,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0007235,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0007241,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0007332,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,female
+ISIC_0007344,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0007528,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,female
+ISIC_0007796,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,female
+ISIC_0008025,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,female
+ISIC_0008524,Anonymous,CC-0,15,,benign,,,nevus,single image expert consensus,,dermoscopic,,True,,,,male
+ISIC_0009995,Anonymous,CC-0,60,lower extremity,benign,11.0,,nevus,single image expert consensus,False,dermoscopic,,True,,,False,female
+ISIC_0010459,Anonymous,CC-0,35,upper extremity,benign,7.0,,nevus,single image expert consensus,False,dermoscopic,,True,,,False,female
+ISIC_0012099,Anonymous,CC-0,35,,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,,True,,,,male
+ISIC_0012109,Anonymous,CC-0,40,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,male
+ISIC_0012126,Anonymous,CC-0,35,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,female
+ISIC_0012127,Anonymous,CC-0,25,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,female
+ISIC_0012143,Anonymous,CC-0,70,,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,,False,,,,male
+ISIC_0012151,Anonymous,CC-0,55,,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,,True,,,,male
+ISIC_0012159,Anonymous,CC-0,35,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,female
+ISIC_0012160,Anonymous,CC-0,45,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,female
+ISIC_0012191,Anonymous,CC-0,65,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,male
+ISIC_0012201,Anonymous,CC-0,65,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,male
+ISIC_0012204,Anonymous,CC-0,60,,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,,False,,,,male
+ISIC_0012206,Anonymous,CC-0,60,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,female
+ISIC_0012210,Anonymous,CC-0,45,,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,,False,,,,male
+ISIC_0012221,Anonymous,CC-0,50,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,female
+ISIC_0012222,Anonymous,CC-0,50,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,female
+ISIC_0012254,Anonymous,CC-0,65,,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,,False,,,,male
+ISIC_0012256,Anonymous,CC-0,35,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,female
+ISIC_0012288,Anonymous,CC-0,70,,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,,True,,,,male
+ISIC_0012306,Anonymous,CC-0,50,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,male
+ISIC_0012313,Anonymous,CC-0,30,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,male
+ISIC_0012316,Anonymous,CC-0,40,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,female
+ISIC_0012335,Anonymous,CC-0,55,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,,,,male
+ISIC_0012380,Anonymous,CC-0,50,,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,,False,,,,female
+ISIC_0012383,Anonymous,CC-0,55,,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,,False,,,,male
+ISIC_0012400,Anonymous,CC-0,40,,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,male
+ISIC_0012417,Anonymous,CC-0,60,,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,,False,,,,male
+ISIC_0012434,Anonymous,CC-0,40,,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,,True,,,,female
+ISIC_0012492,Anonymous,CC-0,50,,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,,False,,,,male
+ISIC_0012513,Anonymous,CC-0,60,,benign,,,seborrheic keratosis,histopathology,,dermoscopic,,False,,,,male
+ISIC_0012538,Anonymous,CC-0,40,,benign,,,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,male
+ISIC_0012547,Anonymous,CC-0,70,,benign,,,nevus,histopathology,,dermoscopic,,True,nevus NOS,,,male
+ISIC_0012660,Anonymous,CC-0,45,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_3194227,True,nevus NOS,,,male
+ISIC_0012684,Anonymous,CC-0,35,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_0068415,True,nevus NOS,,,male
+ISIC_0012720,Anonymous,CC-0,75,upper extremity,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_1536778,False,,,,female
+ISIC_0012746,Anonymous,CC-0,55,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_9821732,True,nevus NOS,,,female
+ISIC_0012876,Anonymous,CC-0,50,lower extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_1762834,True,nevus NOS,,,female
+ISIC_0012927,Anonymous,CC-0,60,anterior torso,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_8865244,False,,,,male
+ISIC_0012956,Anonymous,CC-0,60,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_2074510,True,blue,,,female
+ISIC_0012959,Anonymous,CC-0,75,head/neck,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_2268062,False,,,,male
+ISIC_0012965,Anonymous,CC-0,50,upper extremity,indeterminate,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_6890853,True,nevus NOS,,,male
+ISIC_0013010,Anonymous,CC-0,35,lower extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_4993469,True,nevus NOS,,,female
+ISIC_0013082,Anonymous,CC-0,30,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_8798192,True,nevus NOS,,,male
+ISIC_0013104,Anonymous,CC-0,85,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_4247458,True,nevus NOS,,,male
+ISIC_0013127,Anonymous,CC-0,60,posterior torso,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_2019280,False,,,,female
+ISIC_0013128,Anonymous,CC-0,40,upper extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_5918040,True,nevus NOS,,,female
+ISIC_0013132,Anonymous,CC-0,15,anterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_3100304,True,nevus NOS,,,male
+ISIC_0013188,Anonymous,CC-0,60,lower extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_0380339,True,nevus NOS,,,female
+ISIC_0013215,Anonymous,CC-0,60,posterior torso,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_9418481,False,,,,female
+ISIC_0013232,Anonymous,CC-0,70,posterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_8858205,True,,,,female
+ISIC_0013421,Anonymous,CC-0,60,head/neck,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_1836219,False,,,,female
+ISIC_0013491,Anonymous,CC-0,60,lower extremity,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_8270416,True,,,,male
+ISIC_0013501,Anonymous,CC-0,65,upper extremity,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_8974251,True,,,,male
+ISIC_0013518,Anonymous,CC-0,65,anterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_0154947,True,,,,male
+ISIC_0013527,Anonymous,CC-0,50,upper extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_1339677,True,nevus NOS,,,male
+ISIC_0013549,Anonymous,CC-0,85,upper extremity,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_7955357,True,,,,male
+ISIC_0013561,Anonymous,CC-0,55,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_5917522,True,nevus NOS,,,male
+ISIC_0013562,Anonymous,CC-0,55,anterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_5220015,True,nevus NOS,,,male
+ISIC_0013632,Anonymous,CC-0,70,anterior torso,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_4265224,False,,,,male
+ISIC_0013637,Anonymous,CC-0,70,anterior torso,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_1374119,False,,,,male
+ISIC_0013644,Anonymous,CC-0,50,head/neck,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_2293452,True,,,,female
+ISIC_0013651,Anonymous,CC-0,80,head/neck,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_1991404,True,,,,male
+ISIC_0013663,Anonymous,CC-0,55,upper extremity,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_7204244,True,,,,female
+ISIC_0013702,Anonymous,CC-0,40,anterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_6910881,True,,,,male
+ISIC_0013736,Anonymous,CC-0,55,posterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_0492139,True,,,,male
+ISIC_0013793,Anonymous,CC-0,40,lower extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_3467005,True,nevus NOS,,,female
+ISIC_0013828,Anonymous,CC-0,70,head/neck,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_4092174,True,,,,female
+ISIC_0013863,Anonymous,CC-0,55,head/neck,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_5048152,False,,,,male
+ISIC_0013898,Anonymous,CC-0,40,lower extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_0779158,True,nevus NOS,,,female
+ISIC_0013945,Anonymous,CC-0,65,head/neck,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_3479000,False,,,,female
+ISIC_0014037,Anonymous,CC-0,80,head/neck,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_6829513,True,,,,male
+ISIC_0014038,Anonymous,CC-0,50,posterior torso,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_1094230,False,,,,male
+ISIC_0014055,Anonymous,CC-0,75,upper extremity,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_9359256,False,,,,female
+ISIC_0014139,Anonymous,CC-0,80,head/neck,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_1806222,False,,,,female
+ISIC_0014162,Anonymous,CC-0,45,lower extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_6856800,True,nevus NOS,,,female
+ISIC_0014178,Anonymous,CC-0,70,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_1517601,True,nevus NOS,,,male
+ISIC_0014211,Anonymous,CC-0,55,lower extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_4998379,True,nevus NOS,,,male
+ISIC_0014212,Anonymous,CC-0,60,posterior torso,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_6113558,False,,,,female
+ISIC_0014217,Anonymous,CC-0,80,posterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_4490207,True,,,,male
+ISIC_0014302,Anonymous,CC-0,85,posterior torso,malignant,,,melanoma,histopathology,,dermoscopic,IL_5624958,True,,,,male
+ISIC_0014310,Anonymous,CC-0,50,upper extremity,benign,,,seborrheic keratosis,histopathology,,dermoscopic,IL_2921200,False,,,,female
+ISIC_0014382,Anonymous,CC-0,65,head/neck,benign,,,seborrheic keratosis,histopathology,,dermoscopic,IL_0190763,False,,,,male
+ISIC_0014428,Anonymous,CC-0,55,anterior torso,malignant,,,melanoma,histopathology,,dermoscopic,IL_0174136,True,,,,female
+ISIC_0014558,Anonymous,CC-0,75,upper extremity,malignant,,,melanoma,histopathology,,dermoscopic,IL_2722558,True,,,,male
+ISIC_0014568,Anonymous,CC-0,60,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014572,Anonymous,CC-0,60,head/neck,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014597,Anonymous,CC-0,65,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,female
+ISIC_0014601,Anonymous,CC-0,80,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014608,Anonymous,CC-0,85,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014610,Anonymous,CC-0,65,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014611,Anonymous,CC-0,45,head/neck,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014616,Anonymous,CC-0,75,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014618,Anonymous,CC-0,75,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014620,Anonymous,CC-0,75,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014623,Anonymous,CC-0,75,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014624,Anonymous,CC-0,75,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014633,Anonymous,CC-0,70,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,female
+ISIC_0014635,Anonymous,CC-0,70,,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014637,Anonymous,CC-0,70,head/neck,benign,,,seborrheic keratosis,single image expert consensus,,dermoscopic,,False,,,,male
+ISIC_0014688,Anonymous,CC-0,70,anterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_8369221,True,,IP_6366957,,male
+ISIC_0014712,Anonymous,CC-0,,anterior torso,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_9205409,False,,IP_6383776,,
+ISIC_0014809,Anonymous,CC-0,70,posterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_3208173,True,,IP_5506212,,female
+ISIC_0014829,Anonymous,CC-0,35,upper extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_2831747,True,,IP_2894511,,female
+ISIC_0014857,Anonymous,CC-0,70,posterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_8043627,True,,IP_7322885,,male
+ISIC_0014931,Anonymous,CC-0,65,anterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_8811451,True,,IP_6916514,,male
+ISIC_0014937,Anonymous,CC-0,25,upper extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_4097395,True,,IP_1087114,,female
+ISIC_0014945,Anonymous,CC-0,55,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_8848361,True,,IP_7261989,,male
+ISIC_0014946,Anonymous,CC-0,65,posterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_1897538,True,,IP_2432412,,male
+ISIC_0014979,Anonymous,CC-0,70,upper extremity,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_9136543,True,,IP_5363727,,male
+ISIC_0014985,Anonymous,CC-0,60,head/neck,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_6443733,True,,IP_7566034,,male
+ISIC_0014989,Anonymous,CC-0,30,anterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_6102655,True,,IP_7235076,,male
+ISIC_0015043,Anonymous,CC-0,10,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_4415249,True,,IP_4642087,,male
+ISIC_0015062,Anonymous,CC-0,50,upper extremity,benign,,contact non-polarized,seborrheic keratosis,histopathology,,dermoscopic,IL_2279596,False,,IP_9025977,,female
+ISIC_0015124,Anonymous,CC-0,45,posterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_1343052,True,,IP_1938322,,male
+ISIC_0015144,Anonymous,CC-0,35,upper extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_3243729,True,,IP_1247471,,female
+ISIC_0015211,Anonymous,CC-0,55,anterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_0179653,True,,IP_3482172,,male
+ISIC_0015243,Anonymous,CC-0,60,anterior torso,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_6946089,True,,IP_5737009,,male
+ISIC_0015256,Anonymous,CC-0,65,upper extremity,malignant,,contact non-polarized,melanoma,histopathology,,dermoscopic,IL_1713230,True,,IP_6400451,,male
+ISIC_0015313,Anonymous,CC-0,45,lateral torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_5555158,True,,IP_3618138,,male
+ISIC_0015372,Anonymous,CC-0,45,anterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_5753512,True,,IP_7154526,,female
+ISIC_0015401,Anonymous,CC-0,50,lower extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_4857015,True,,IP_4312417,,female
+ISIC_0015443,Anonymous,CC-0,50,upper extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_4373176,True,,IP_7503857,,female
+ISIC_0015445,Anonymous,CC-0,50,lower extremity,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_3061261,True,,IP_8583946,,female
+ISIC_0015483,Anonymous,CC-0,50,anterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_2190859,True,,IP_6108028,,male
+ISIC_0015496,Anonymous,CC-0,20,posterior torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_3374880,True,,IP_4491986,,female
+ISIC_0015627,Anonymous,CC-0,15,lateral torso,benign,,contact non-polarized,nevus,histopathology,,dermoscopic,IL_8315691,True,,IP_0532448,,female
