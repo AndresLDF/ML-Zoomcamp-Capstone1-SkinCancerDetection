@@ -257,5 +257,17 @@ This model is based on EfficientNetV2L. The model had a higher Top-1 Accuracy th
 ### Selected Model
 The model 1.5 was selected for further work as is the simpliest one with higher accuracy
 
+## Working with the selected model
+To work with the selected model, you can use the image prepared to be used with AWS Lambda. To test the image you shoudl follow the follwing steps:
+1. Clone this repository into your local machine
+2. Open your command sheld
+3. Go to the directory where the cloned repositore was stored
+4. Open the folde "Serverles"
+5. Be sure that Docker is working in your system and type ``` docker build -t scd:001 . ```
+6. Once the build is ready, type  c docker run -p 8080:8080 scd:001 ```
+7. Open another terminal on the folder "Serverles"
+8. Now type ``` python test.py ```
+
+You should be able to get the console run following this steps. You can open the file test.py with an editor and chage the URL in line 5 to test differente images
 
 
