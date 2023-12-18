@@ -34,7 +34,7 @@ The models were trained using the images from the dataset and 3 Categories were 
 * Seborrheic_keratosis
 For this work the following models were tried:
 * X1.x Models
-  * Base Model: Xception without the top
+  ** Base Model: Xception without the top
   * Inner Layers: Single Dense Layer with Activation
   * Outpout layer: Single Dense layer with 3 neuorons
 * X2.x Models
