@@ -49,3 +49,62 @@ For this work the following models were tried:
   * Base Model: EfficientNetV2L without the top
   * Inner Layers: Single Dense Layer with Activation
   * Outpout layer: Single Dense layer with 3 neuorons
+ 
+ 
+## Models Optimization
+### X1.x Models
+The following attemps were made witht this model:
+* X1.1:
+ * Base Model Trainable: False
+ * Inner layer size: 100 neurons
+ * Imput shape: (150, 150, 3)
+ * learning_rate=0.01
+ * Drop Out: No
+ * Image Preparation: No
+ * Final Accuracy: 0.64
+
+*  X1.2:
+ * Difference with previous version:
+  * The whole model is trained including the base model 
+ * Base Model Trainable: True
+ * Inner layer size: 100 neurons
+ * Imput shape: (150, 150, 3)
+ * learning_rate=0.01
+ * Drop Out: No
+ * Image Preparation: No
+ * Final Accuracy: 0.2
+
+*  X1.3:
+ * Difference with previous version:
+  * A higer imput resolution of 400x400 is tried. Square images are feed.
+  * The base model is not trained, default weights are used  
+ * Base Model Trainable: False
+ * Inner layer size: 100 neurons
+ * Imput shape: (400, 400, 3)
+ * learning_rate=0.01
+ * Drop Out: No
+ * Image Preparation: No
+ * Final Accuracy: 0.69
+
+*  X1.4:
+ * Difference with previous version:
+  * A higer imput resolution of 800x800 is tried. Square images are feed.
+  * The base model is not trained, default weights are used  
+ * Base Model Trainable: False
+ * Inner layer size: 100 neurons
+ * Imput shape: (800, 800, 3)
+ * learning_rate=0.01
+ * Drop Out: No
+ * Image Preparation: No
+ * Final Accuracy: 0.61
+
+*  X1.5:
+ * Difference with previous version:
+  * In this version we use a similar resolution that in version 1.3, but instead of using an square relationship between the width and the heigh, we will use a a relation af 1.332 that is closer to the original images
+ * Base Model Trainable: False
+ * Inner layer size: 100 neurons
+ * Imput shape: (400, 533, 3)
+ * learning_rate=0.01
+ * Drop Out: No
+ * Image Preparation: No
+ * Final Accuracy: 0.71
